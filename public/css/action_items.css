@@ -1,0 +1,138 @@
+.action_item{
+ 
+  padding: 5px;
+  margin: 10px 20px;
+  background-color:#78C4DC;
+  width: 710px;
+  background: #144278 url(../images/actionitemtop.jpg) top left no-repeat;
+}
+
+.action_item h3 { 
+  float: right;
+}
+
+.action_item h2 {
+color: #fff;
+}
+
+.action_header { 
+ color: #fff;
+  background: transparent;
+  cursor: pointer;
+  padding: 5px 10px;
+  line-height: 40px;
+}
+
+.action_header h2, .action_header h3 { 
+font-family: helvetica, arial;
+  border: none;
+    margin : 0px;
+
+}
+.action_item .content { 
+	     background-color: white;
+}
+
+.gold { 
+	font-style: italic;
+	color: #ffff00;
+}
+
+.silver{ 
+	   color: silver;
+}
+
+.bronze{
+	color: #D98719;
+}
+
+.submit { 
+	border-color:#00C800 #003F00 #003F00 #00C800;
+	border-style:solid;
+	border-width:2px;	     
+	cursor:pointer;	
+	padding:5px 10px;
+	font-size: 14px;	
+	color: white;		
+	background-color: #009900
+}
+
+input.em_header { 
+	width: 676px;
+	color: #000;
+	
+}
+
+textarea.em_body { 
+ 	width: 680px;	
+	height:100px;
+
+}
+
+
+.action_item .content{
+  border: 1px solid black;
+  display: none;
+  padding: 10px;
+}
+
+.action_item .letter{
+  float: left;
+  width: 60%;
+}
+
+.action_item li label{
+  width: 70px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.questions{
+  float: right;
+  width: 35%;
+}
+
+
+.carrier{
+  float: left;
+  padding: 5px;
+  margin: 0px 5px;
+}
+
+.import_message{
+  float: left;
+  line-height: 22px;
+  font-weight: bolder;
+}
+
+.import_spacer { 
+  padding: 10px 0;
+}
+
+.editable_letter{
+  width: 400px;
+  height: 70px;
+  margin: 10px 40px;
+}
+
+#petition_thanks{
+  display:none;
+  line-height: 40px;
+  background-color: #DDFFDD;
+  border: 1px solid #00D900;
+  text-align: center;
+}
+
+#email_thanks{
+  display:none;
+  line-height: 40px;
+  background-color: #DDFFDD;
+  border: 1px solid #00D900;
+  text-align: center;
+}
+
+input.petition {
+width: 20px;
+}

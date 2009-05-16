@@ -1,0 +1,95 @@
+body {
+background: #a8a8a8;
+padding: 0;
+margin: 0;
+}
+
+#navcontainer{
+background: transparent url(../images/nav2.png) top right no-repeat;
+height: 100px;
+margin-right: 30px;
+padding-top: 6px;
+padding-right: 30px;
+}
+
+ul .navlist { 
+background: transparent;
+font-family: helvetica, arial, sans-serif; 
+float: right;
+
+}
+
+ul .navlist a
+{
+font-weight: bold;
+text-decoration: none;
+color: #1a5396;
+}
+
+ul.navlist, ul.navlist ul, ul.navlist li
+{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+}
+
+ul.navlist li { 
+float: left; 
+padding-right: 10px;
+}
+
+ul.navlist li a
+{
+color: #1a5396;
+background: transparent;
+padding: 8px 2px 4px 2px;
+border: none;
+}
+
+ul.navlist li a:hover
+{
+color: #000;
+background-color: #fff;
+}
+
+ul.navlist li a:active
+{
+color: #cccccc;
+background-color: #e0e0e0;
+border: 1px #ffffff inset;
+}
+
+ul .subnavlist { display: none; }
+ul .subnavlist li{ float: none; }
+
+ul.subnavlist li a
+{
+padding: 0px;
+margin: 0px;
+}
+
+ul.navlist li:hover ul.subnavlist
+{
+display: block;
+position: absolute;
+font-size: 12pt;
+padding-top: 5px;
+margin-top: 0px;
+text-align: center;
+}
+
+ul.navlist li:hover ul.subnavlist li a
+{
+display: block;
+width: 140px;
+border: none;
+padding: 2px;
+background: #fff;
+}
+ul.navlist li:hover ul.subnavlist li.last a {
+background: transparent url(../images/navchild.png)bottom left no-repeat;
+border: none;
+width: 142px;
+padding-bottom: 20px;
+}
+
